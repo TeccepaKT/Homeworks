@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Войдите в папку contest-? и используйте ../add.sh, чтобы добавить в индекс файлы для ревью
+
 addfile="$(pwd)/.add"
 if ! [ -f $addfile ]; then
     echo "There are no .add file"
